@@ -7,7 +7,7 @@ import os
 import pandas as pd
 import plotly.express as px
 
-pasta = "C:/Users/Maria Luiza/OneDrive/Documentos/GitHub/mini-curso-em-python-2/Vendas"
+pasta = "o caminho da sua pasta de vendas"
 lista_arquivo = os.listdir(pasta)
 
 tabela_total = pd.DataFrame()
